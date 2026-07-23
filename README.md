@@ -19,7 +19,8 @@
 
 ## Selected work
 
-**Where I do my real work — frontend.** My main project is a production **Angular ERP frontend I architected and now lead**: a config-driven component library, design-token theming, and the conventions the team builds inside. *(Private company work, so no link — but it's the core of what I do day to day.)*
+**Where I do my real work — frontend.** My main project is a production **Angular ERP frontend I architected and now lead**: a config-driven component library, design-token theming, and the conventions the team builds inside. 
+*(Private company work, so no link — but it's the core of what I do day to day.)*
 
 **Public frontend trail** *(early / school work — the professional frontend is private):*
 my [web-integrator exam](https://github.com/MadsTinko/Web-integrator-exam-assignment) work — a [web-shop](https://github.com/MadsTinko/Web-shop-asssignment-web-integrator-), a [comment system](https://github.com/MadsTinko/Comment-system-web-integrator-), a [responsive hotel frontend](https://github.com/MadsTinko/Hotel-Stevns-frontend-), and [JS animations](https://github.com/MadsTinko/Simple-Javascript-animations)
