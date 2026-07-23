@@ -50,6 +50,11 @@ A **website-builder built in Symfony (PHP)** during an earlier apprenticeship �
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)
 
+---
+
+## Get in touch
+- 💼 [LinkedIn](https://dk.linkedin.com/in/mads-tinko-madsen)
+
 <!--
 **MadsTinko/MadsTinko** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
