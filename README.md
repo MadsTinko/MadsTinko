@@ -19,19 +19,13 @@
 
 ## Selected work
 
-Most of my professional frontend lives in private company repos — but here's a public trail of *how I learned the craft*, with the code to back each concept:
+**Where I do my real work — frontend.** My main project is a production **Angular ERP frontend I architected and now lead**: a config-driven component library, design-token theming, and the conventions the team builds inside. It lives in a private company repo — happy to walk through it.
 
-**CS fundamentals**
-[Nand2Tetris](https://github.com/MadsTinko/Nand2Tetris_Project1) (a working computer built up from NAND gates) · [data structures](https://github.com/MadsTinko/H5_DataStructure) & [sorting algorithms](https://github.com/MadsTinko/H5_Sorting_Algorithms) in C · an [assembler](https://github.com/MadsTinko/H5_Assembler) · [facial recognition](https://github.com/MadsTinko/facial_recognition) in C++
+**Public frontend trail** *(early / school work — the professional frontend is private):*
+my [web-integrator exam](https://github.com/MadsTinko/Web-integrator-exam-assignment) work — a [web-shop](https://github.com/MadsTinko/Web-shop-asssignment-web-integrator-), a [comment system](https://github.com/MadsTinko/Comment-system-web-integrator-), a [responsive hotel frontend](https://github.com/MadsTinko/Hotel-Stevns-frontend-), and [JS animations](https://github.com/MadsTinko/Simple-Javascript-animations)
 
-**Security & cryptography**
-[symmetric](https://github.com/MadsTinko/H4_SymmetricEncryption) / [asymmetric](https://github.com/MadsTinko/H4_AsymmetricEncryption) encryption · [hashing & salting](https://github.com/MadsTinko/H4_Hashing_and_salting) · [secure passwords](https://github.com/MadsTinko/SecurePasswords)
-
-**Patterns & OOP**
-[generics](https://github.com/MadsTinko/GenericStarWars) · [an ATM built with classes](https://github.com/MadsTinko/ATM) · [SOLID in practice](https://github.com/MadsTinko/Geometri-SOLID)
-
-**Web**
-My [web-integrator exam](https://github.com/MadsTinko/Web-integrator-exam-assignment) work — a [web-shop](https://github.com/MadsTinko/Web-shop-asssignment-web-integrator-), a [comment system](https://github.com/MadsTinko/Comment-system-web-integrator-), and responsive frontends
+**Foundations, with the code to prove them** *(the CS underneath the craft):*
+[Nand2Tetris](https://github.com/MadsTinko/Nand2Tetris_Project1) · [data structures](https://github.com/MadsTinko/H5_DataStructure) & [sorting](https://github.com/MadsTinko/H5_Sorting_Algorithms) in C · [encryption](https://github.com/MadsTinko/H4_AsymmetricEncryption) & [hashing](https://github.com/MadsTinko/H4_Hashing_and_salting) · [generics](https://github.com/MadsTinko/GenericStarWars) · [SOLID](https://github.com/MadsTinko/Geometri-SOLID)
 
 ---
 
