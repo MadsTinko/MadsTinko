@@ -18,9 +18,34 @@ Frontend lead & design-focused engineer from Denmark. I architect the systems ot
 
 ---
 
-## Featured frontend work
+## What I'm building now
 
-Most of my professional frontend lives in private company repos — so here's public code that exercises the same muscles.
+For 2+ years I've been the **Lead Frontend Developer** at **Engii-Soft**, building **EngiiCore** — an all-in-one, multi-tenant platform for consulting engineering & architecture firms (capacity planning, quote-to-cash, project economics, a built-in AI assistant). I rebuilt a stalled legacy app (frozen on Angular 12, ~10 major versions behind) into a modern **Angular 22** codebase — standalone components, signals, gRPC / Connect, MSAL auth — and set the conventions the team now builds inside. The foundations are mine:
+
+- **Design system & theming** — the design-token foundation, themes and utility layer the whole app styles against, with hardcoded styles banned by lint. The team builds components on top of it; the system underneath is mine.
+- **Generic component library** — the reuse pattern and the bulk of a ~30-component generic library: a typed config-driven table, tree / expandable tables, filter-bar, page-shell, cards, form-layout, a calendar subsystem.
+- **gRPC / Connect layer** — `fetch` / `mutate` wrappers that centralize loading state and notifications, plus buf-based proto generation.
+- **Route security** — the Angular guard wiring (permission / role / auth / bootstrap) that decides what each area gates.
+- **Architecture-as-lint** — **26 custom ESLint rules** plus Husky pre-commit hooks that make the conventions self-enforce across the team.
+- **Testing** — a 4-tier strategy including a novel **wire-compat** tier I built to catch protobuf wire drift on dependency bumps; I wrote most of the suite.
+- **CI/CD & docs** — the GitHub Actions pipelines and the developer / architecture documentation the team onboards from.
+
+I lead 2 developers, on a platform of hundreds of components across 30+ feature areas.
+
+Alongside it, I lead the design and front-end build of EngiiCore's public **marketing site** — a separate Angular app with its own design-system port, per-locale i18n and CI — with one other developer. *(Link at launch.)*
+
+![Angular 22](https://img.shields.io/badge/Angular_22-11A597?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3A4550?style=flat-square&logo=typescript&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-3A4550?style=flat-square&logo=sass&logoColor=white)
+![Design tokens](https://img.shields.io/badge/Design_tokens-3A4550?style=flat-square)
+![gRPC / Connect](https://img.shields.io/badge/gRPC_/_Connect-3A4550?style=flat-square&logo=grpc&logoColor=white)
+![ESLint rules](https://img.shields.io/badge/26_ESLint_rules-3A4550?style=flat-square&logo=eslint&logoColor=white)
+
+---
+
+## Public code
+
+The platform above is private, so here's public, clickable code that exercises the same muscles.
 
 ### [WiseWatt](https://github.com/MadsTinko/H6-WiseWatt-Frontend) — smart-home energy dashboard
 My strongest public sample; it mirrors what I do professionally: **SSR**, **ECharts** dashboards, **JWT auth** (guard + interceptor + service), Angular **Material / CDK**, a custom **theming service**, and IoT-device CRUD across ~20 components and 7 services.
@@ -57,26 +82,26 @@ A clean interactive periodic table — data-mapper service, typed models, compos
 
 ---
 
-## The other half — backend & full-stack
+## Where the architecture comes from — backend & CS foundations
 
-The rarer part of my profile: I'm a frontend specialist who can genuinely carry the backend, and here's the public proof.
+The systems thinking I lead with on the frontend — generics, design tokens, reuse patterns — rests on real CS foundations. Here's the public proof that I understand the patterns I architect with, not just apply them.
 
 ### [Poker Engine](https://github.com/MadsTinko/H4_Poker_Engine) — real-time game server, front to back
-A C# / ASP.NET **SignalR** server with **JWT auth**, a token generator, factory-built decks, role management and a full **unit-test** suite — and it's the backend for my Flutter [Texas Hold'em](https://github.com/MadsTinko/texas_holdem_app) client. One real-time multiplayer system, both halves public.
+A C# / ASP.NET **SignalR** server built on **factory patterns, interfaces and dependency injection**, with JWT auth, role management and a full **unit-test** suite — and it's the backend for my Flutter [Texas Hold'em](https://github.com/MadsTinko/texas_holdem_app) client. One real-time multiplayer system, both halves public.
 
-![C# / .NET](https://img.shields.io/badge/C%23_/_.NET-11A597?style=flat-square&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-11A597?style=flat-square&logo=csharp&logoColor=white)
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-3A4550?style=flat-square&logo=dotnet&logoColor=white)
 ![SignalR](https://img.shields.io/badge/SignalR-3A4550?style=flat-square)
 ![xUnit](https://img.shields.io/badge/xUnit-3A4550?style=flat-square)
 
-**More backend I can stand behind:**
-- **APIs** — [WhiteboardImagesAPI](https://github.com/MadsTinko/WhiteboardImagesAPI), an ASP.NET Core Web API.
-- **Data / ORM** — layered **EF Core** with clean Data/Domain separation ([StarWars EF Core](https://github.com/MadsTinko/StarWarsCharactersEFCore)) and relational modeling incl. many-to-many joins ([cocktails ORM](https://github.com/MadsTinko/H3_orm_cocktails)).
-- **Applied security** — symmetric & [asymmetric](https://github.com/MadsTinko/H4_AsymmetricEncryption) encryption, [hashing & salting](https://github.com/MadsTinko/H4_Hashing_and_salting), and [secure password storage](https://github.com/MadsTinko/SecurePasswords) in C#.
-- **Full data-driven web app** — my [web-integrator final exam](https://github.com/MadsTinko/Web-integrator-exam-assignment): an ASP.NET music shop with a SQL Server backend, user accounts, and a 7-page admin CMS.
-- **Professionally** — I built and own a production **gRPC / Connect** service layer and spec backend work across the stack.
+**More that backs the architecture:**
+- **SOLID & OOP in practice** — [SOLID geometry](https://github.com/MadsTinko/Geometri-SOLID), [generics](https://github.com/MadsTinko/GenericStarWars) and [class-based design](https://github.com/MadsTinko/ATM) — the same principles behind my generic component library.
+- **Layered / clean architecture** — **EF Core** with a clean Data/Domain split ([StarWars EF Core](https://github.com/MadsTinko/StarWarsCharactersEFCore)) and relational modeling incl. many-to-many joins ([cocktails ORM](https://github.com/MadsTinko/H3_orm_cocktails)).
+- **APIs & security** — an [ASP.NET Core Web API](https://github.com/MadsTinko/WhiteboardImagesAPI); [asymmetric](https://github.com/MadsTinko/H4_AsymmetricEncryption) encryption, [hashing & salting](https://github.com/MadsTinko/H4_Hashing_and_salting), [secure password storage](https://github.com/MadsTinko/SecurePasswords).
+- **Full data-driven web app** — my [web-integrator final exam](https://github.com/MadsTinko/Web-integrator-exam-assignment): an ASP.NET music shop with a SQL Server backend and a 7-page admin CMS.
+- **Professionally** — I spec backend work across the stack and own my platform's **gRPC / Connect** integration.
 
-> WiseWatt was my **datatekniker final exam** project (frontend + backend + IoT) — **graded 10** on the Danish scale.
+> WiseWatt was my **datatekniker final exam** (frontend + backend + IoT) — **graded 10** on the Danish scale.
 
 ---
 
