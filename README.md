@@ -95,7 +95,9 @@ A **website-builder / CMS in Symfony (PHP)** built during an earlier apprentices
 ## Tech I reach for
 
 **Frontend** — Angular · TypeScript · Signals / RxJS · SCSS · Flutter / Dart
+
 **Backend** — C# / .NET · ASP.NET · SignalR · EF Core · gRPC / Connect · Node · PHP / Symfony · SQL
+
 **Practices** — design systems · patterns / SOLID · testing (Vitest · Playwright · Karma · xUnit) · CI/CD · custom lint tooling
 
 Fourteen languages across the repos above and counting.
