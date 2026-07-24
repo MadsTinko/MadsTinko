@@ -32,8 +32,6 @@ For 2+ years I've been the **Lead Frontend Developer** at **Engii-Soft**, buildi
 
 I lead 2 developers, on a platform of hundreds of components across 30+ feature areas.
 
-Alongside it, I lead the design and front-end build of EngiiCore's public **marketing site** — a separate Angular app with its own design-system port, per-locale i18n and CI — with one other developer. *(Link at launch.)*
-
 ![Angular 22](https://img.shields.io/badge/Angular_22-11A597?style=flat-square&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3A4550?style=flat-square&logo=typescript&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-3A4550?style=flat-square&logo=sass&logoColor=white)
