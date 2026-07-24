@@ -96,11 +96,10 @@ A C# / ASP.NET **SignalR** server built on **factory patterns, interfaces and de
 - **SOLID & OOP in practice** — [SOLID geometry](https://github.com/MadsTinko/Geometri-SOLID), [generics](https://github.com/MadsTinko/GenericStarWars) and [class-based design](https://github.com/MadsTinko/ATM) — the same principles behind my generic component library.
 - **Layered / clean architecture** — **EF Core** with a clean Data/Domain split ([StarWars EF Core](https://github.com/MadsTinko/StarWarsCharactersEFCore)) and relational modeling incl. many-to-many joins ([cocktails ORM](https://github.com/MadsTinko/H3_orm_cocktails)).
 - **APIs & security** — an [ASP.NET Core Web API](https://github.com/MadsTinko/WhiteboardImagesAPI); [asymmetric](https://github.com/MadsTinko/H4_AsymmetricEncryption) encryption, [hashing & salting](https://github.com/MadsTinko/H4_Hashing_and_salting), [secure password storage](https://github.com/MadsTinko/SecurePasswords).
-- **Full data-driven web app** — my [web-integrator final exam](https://github.com/MadsTinko/Web-integrator-exam-assignment): an ASP.NET music shop with a SQL Server backend and a 7-page admin CMS.
+- **Shipped a complete app, end to end** — my [2017 web-integrator final exam](https://github.com/MadsTinko/Web-integrator-exam-assignment): an ASP.NET Web Forms webshop with a storefront, auth, SQL Server and a 7-page admin CMS. A dated stack now — which is the point: proof I've been shipping real products for the better part of a decade.
 - **Professionally** — I spec backend work across the stack and own my platform's **gRPC / Connect** integration.
 
 > WiseWatt was my **datatekniker final exam** (frontend + backend + IoT) — **graded 10** on the Danish scale.
-
 ---
 
 ## Foundations
