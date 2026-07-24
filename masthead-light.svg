@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Mads Tinko Madsen — Frontend lead and design systems">
+  <rect width="1280" height="320" fill="#F6F8FA"/>
+  <!-- artboard crop marks -->
+  <g stroke="#C1CCD5" stroke-width="1.5" fill="none">
+    <path d="M22 40 V22 H40"/>
+    <path d="M1240 22 H1258 V40"/>
+    <path d="M22 280 V298 H40"/>
+    <path d="M1240 298 H1258 V280"/>
+  </g>
+  <!-- left: identity -->
+  <text x="72" y="92" font-family="ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace" font-size="14.5" letter-spacing="3.5" fill="#0E8C8C">FRONTEND&#160;LEAD&#160;&#160;·&#160;&#160;DESIGN&#160;SYSTEMS&#160;&#160;·&#160;&#160;~10&#160;YRS</text>
+  <text x="70" y="170" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-1.8" fill="#0E1116">Mads Tinko Madsen</text>
+  <text x="72" y="212" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21" fill="#55636F">I build the systems other developers build <tspan font-style="italic" fill="#0E1116">inside</tspan>.</text>
+  <text x="72" y="252" font-family="ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace" font-size="13" letter-spacing="1.5" fill="#8A97A3">DENMARK&#160;&#160;/&#160;&#160;ANGULAR&#160;·&#160;TYPESCRIPT&#160;·&#160;gRPC&#160;·&#160;.NET</text>
+  <!-- divider -->
+  <line x1="904" y1="66" x2="904" y2="256" stroke="#E1E6EA" stroke-width="1.5"/>
+  <!-- right: token legend (the signature) -->
+  <text x="944" y="92" font-family="ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace" font-size="13" letter-spacing="3" fill="#0E8C8C">TOKENS</text>
+  <g font-family="ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace" font-size="13">
+    <rect x="944" y="118" width="16" height="16" rx="3" fill="#0E8C8C"/>
+    <text x="972" y="130.5" fill="#33414D">Signal</text>
+    <text x="1208" y="130.5" text-anchor="end" fill="#8A97A3">#0E8C8C</text>
+
+    <rect x="944" y="152" width="16" height="16" rx="3" fill="#0E1116"/>
+    <text x="972" y="164.5" fill="#33414D">Ink</text>
+    <text x="1208" y="164.5" text-anchor="end" fill="#8A97A3">#0E1116</text>
+
+    <rect x="944" y="186" width="16" height="16" rx="3" fill="#7A8794"/>
+    <text x="972" y="198.5" fill="#33414D">Muted</text>
+    <text x="1208" y="198.5" text-anchor="end" fill="#8A97A3">#7A8794</text>
+
+    <rect x="944" y="220" width="16" height="16" rx="3" fill="#F6F8FA" stroke="#C1CCD5" stroke-width="1"/>
+    <text x="972" y="232.5" fill="#33414D">Paper</text>
+    <text x="1208" y="232.5" text-anchor="end" fill="#8A97A3">#F6F8FA</text>
+  </g>
+</svg>
