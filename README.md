@@ -46,7 +46,7 @@ The rarer part of my profile: I'm a frontend specialist who can genuinely carry 
 - **APIs** — [WhiteboardImagesAPI](https://github.com/MadsTinko/WhiteboardImagesAPI), an ASP.NET Core Web API.
 - **Data / ORM** — layered **EF Core** with clean Data/Domain separation ([StarWars EF Core](https://github.com/MadsTinko/StarWarsCharactersEFCore)) and relational modeling incl. many-to-many joins ([cocktails ORM](https://github.com/MadsTinko/H3_orm_cocktails)).
 - **Applied security** — symmetric & [asymmetric](https://github.com/MadsTinko/H4_AsymmetricEncryption) encryption, [hashing & salting](https://github.com/MadsTinko/H4_Hashing_and_salting), and [secure password storage](https://github.com/MadsTinko/SecurePasswords) in C#.
-- **Full data-driven web app** — [MettesPlanteSkole](https://github.com/MadsTinko/MettesPlanteSkole), a webshop with a SQL Server backend, admin + storefront, and a cart.
+- **Full data-driven web app** — my [web-integrator final exam](https://github.com/MadsTinko/Web-integrator-exam-assignment): an ASP.NET music shop with a SQL Server backend, user accounts, and a 7-page admin CMS (albums, genres, reviews, users, content).
 - **Professionally** — I built and own a production **gRPC / Connect** service layer and spec backend work across the stack.
 
 > WiseWatt was my final full-stack exam project (frontend + backend + IoT) — **graded 10** on the Danish scale.
